@@ -7,7 +7,7 @@ https://www.ccdc.cam.ac.uk/
 https://publcif.iucr.org/publcif.php
 https://aflowlib.org/search/
 
-Also, we can generate the CIF file by using some tools such as:
+Also, by using some tools such as VESTA, cif2cell, QE Input generator
 
 Vesta is available for download here(https://jp-minerals.org/vesta/en/). Crystal structure visualization, creation, modification in supercells, etc, can be done.
 
@@ -16,6 +16,7 @@ By using the cif2cell package, previously generated/downloaded CIF files can be 
 This package can be installed by sudo pip3 install cif2cell (apply this command from the installation directory).
 
 echo ‘export PATH=”/home/your-user-name/.local/lib/python3.8/site-packages/:$PATH”‘ >> ~/.bashrc
+
 Now use cif2cell Si.cif -p quantum-espresso -o Si.in, where Si.cif is the previously generated/downloaded CIF and Si.in is the newly generated QE input file.
 
 You can also use the QE Input generator, such as ​
