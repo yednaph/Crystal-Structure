@@ -2,6 +2,7 @@ Crystallographic Information File (.CIF) format
 
 For a variety of materials, CIF files can be downloaded from the various databases, such as:
 https://www.crystallography.net/cod/
+
 https://next-gen.materialsproject.org/
 https://www.ccdc.cam.ac.uk/
 https://publcif.iucr.org/publcif.php
