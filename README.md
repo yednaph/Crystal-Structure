@@ -24,5 +24,6 @@ echo ‘export PATH=”/home/your-user-name/.local/lib/python3.8/site-packages/:
 Now use cif2cell Si.cif -p quantum-espresso -o Si.in, where Si.cif is the previously generated/downloaded CIF and Si.in is the newly generated QE input file.
 
 You can also use the QE Input generator, such as ​
-https://qeinputgenerator.materialscloud.io to generate PWscf input files,
+https://qeinputgenerator.materialscloud.io to generate PWscf input files
+
 https://seekpath.materialscloud.io/ for the k-path visualization and generation
